@@ -1,0 +1,2 @@
+# justfuny.github.io
+ blog
