@@ -58,7 +58,7 @@ plugins:
 author:
   name: "Justfun"
   avatar: /assets/images/unnamed.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "资深技术渣 Share & Love."
+  bio: "Share & Love."
   location: "Shenzhen"
   email:
   links:
