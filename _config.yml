@@ -30,6 +30,13 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 atom_feed:
   hide: true
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "justfun-blog"
+
+google_site_verification: y_QZCKUKmgONjhQS5Tp4ygMZoAD7RwKHpxFc_VfgXgc
+
 include:
   - _pages
 
