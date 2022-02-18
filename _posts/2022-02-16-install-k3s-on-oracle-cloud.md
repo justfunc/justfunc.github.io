@@ -7,6 +7,9 @@ tags:
   - OracleCloud
   - 甲骨文云
   - k3s
+toc: true
+toc_sticky: true
+# classes: wide
 ---
 
 前段时间申请到了甲骨文云的账号，可以白嫖 3 台永久免费的 VM 实例，2 台 1 核心 1G 的 AMD64 和 1 台 4 核 24G 内存的 ARM64 的主机（ARM 架构的主机常年缺货，不定期会有），让我忍不住直呼真香，简直太良心了，Azure、AWS、GCP、阿里云你们学着点啊，不仅如此还有 oracle 的数据库和负载均衡等，具体可以看[这里](https://www.oracle.com/cn/cloud/free/?source=CloudFree_CTA1_Default&intcmp=CloudFree_CTA1_Default)。如果只是用来魔法上网就有点太浪费了，本着把它的价值榨干的原则，打算搭建一个 Kubernetes 集群来玩一玩，所有的服务都跑在 k8s 中岂不美哉，我这里使用 `K3S` 来搭建，使用 K3S 原因很简单，相较 K8S 对性能要求较低低，甚至可以跑在树莓派中，且具备 K8S 中的绝大多数功能，个人认为用来学习把玩非常适合我这个甲骨文云的环境。
